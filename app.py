@@ -108,11 +108,11 @@ def stop_music():
 
 # Create the main window
 window = tk.Tk()
-window.title("ListenIn")
+window.title("ListenIn Music")
 window.geometry("600x500")
 
 # Create a label for the music player title
-l_music_player = tk.Label(window, text="Music Player", font=("TkDefaultFont", 30, "bold"))
+l_music_player = tk.Label(window, text="ListenIn Music", font=("TkDefaultFont", 30, "bold"))
 l_music_player.pack(pady=10)
 
 # Create a button to select the music folder
